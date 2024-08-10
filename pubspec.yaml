@@ -1,0 +1,29 @@
+name: rustique
+description: "Rustique offers faster, Rust-powered alternatives to standard Dart functions for improved app performance."
+version: 0.0.1
+homepage: https://gokula.dev
+topics: [rust, dart-ffi]
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_rust_bridge: ^2.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+
+
+platforms:
+  android:
+  ios:
+  macos:
+  linux:
+  windows:
